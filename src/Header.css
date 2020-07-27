@@ -1,0 +1,53 @@
+.header {
+	display: flex;
+	min-height: 60px;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__searchBox {
+	display: flex;
+	align-items: center;
+}
+.header__burgerMenu {
+	padding-left: 30px;
+	color: #606060;
+
+	padding-right: 30px;
+}
+.header__leftSide {
+	display: flex;
+}
+.header__logo {
+	object-fit: contain;
+	padding-left: 10px;
+	width: 100px;
+}
+.header__searchBtn {
+	background-color: rgb(238, 238, 238) !important;
+}
+.header__input input {
+	padding: 6px;
+	color: #606060;
+	width: 376px;
+}
+.header__searchBtn {
+	height: 30px;
+	color: #606060;
+}
+.header__videoCall {
+	margin-right: 15px;
+	color: #606060;
+
+	padding-right: 5px;
+}
+.header__appIcon {
+	margin-right: 15px;
+	color: #606060;
+
+	padding-right: 5px;
+}
+.header__notification {
+	color: #606060;
+
+	margin-right: 50px;
+}
